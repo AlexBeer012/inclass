@@ -3,3 +3,32 @@ git add file.txt
 git commit -m "message"
 git push 
 git log
+
+checks for "boxs"
+git status:
+
+This command asks git to determine what's going on. It will let you know if you have files that git doesn't know about (listed in red) or files that you have already added (listed in green) but not committed.
+
+creates a "box"
+git add file.txt
+
+This command tells git that you have changes that you are ready to bundle up. This command records these changes.
+
+Labels the "box"
+git commit -m "Pushing blah foo"
+
+This command records a human-readable message to accompany the changes you recorded when you previously ran git add. If you think of git add as adding your changes to a box, then you can think of the git commit command as putting a label on your box of changes.
+
+After running git commit, you can run git status, and you'll see that you have commits that need to be pushed to origin/main (that means Github). To continue our metaphor, this means that your box of changes is sitting on the loading dock waiting for the truck.
+
+pushing your "boxes" onto a truck:
+git push
+
+This command sends your commits to the Github server. This is like the truck driver taking the boxes from the loading dock and delivering them to their destination.
+
+At the other end, the person at the destination accepts the delivery of your box, opens the box, and records all of your changes on the remote Github server.
+
+To look at all commits,pushs,etc:
+git log
+
+This command lists all of your commits and the corresponding messages.
