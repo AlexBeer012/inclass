@@ -32,7 +32,7 @@ cd ~ and cd // take you to home directory
 Bash commands on campuswire #  
 
 
-/////////
+//////////
 Parts of a function
 Every function has four parts
 (see §2.2, p.47):
