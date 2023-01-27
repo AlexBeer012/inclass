@@ -1,0 +1,11 @@
+Compile:
+
+g++ -o "outputname" "filename"
+To run the program - ./"outputname"
+
+Git:
+git add
+git commit -m ""
+git push
+
+
