@@ -4,5 +4,60 @@ Chapter 2 notes (see chapter 2.2 p.47)
 The part in yellow: do the questions
 They're drills
 
+int main(){
+	return 0;
+}
+
+int // return type
+main // name
+() // parameter
+return 0; // body
+*everything in the body
+
+To compile:
+g++ -o [filename] [filename].[filetype]
+./ [filename]
+
+$ // 
+$USER // says user's name
+$PATH // shows a list of directories that lead to the current directory (completley)
+EX:
+/usr/local/sbin:/user/local/bin:/user ...........foo 
+$HOST // says host name
+
+which ls //helps find current user directory btter than $PATH
+
+cd ~ and cd // take you to home directory
+
+Bash commands on campuswire #  
 
 
+/////////
+Parts of a function
+Every function has four parts
+(see §2.2, p.47):
+
+A return type
+A name
+A list of parameters
+A body
+Bash environment variables
+$USER
+$HOSTNAME
+$PATH
+$PATH is a lists of directories. When you run a command at the bash terminal, bash will look through this list to find the program you want to run. If it's not in any of these directories, you will get an error message.
+
+You can test this by running which somecommand
+
+You can explicitly use ./somecommand to run the one in the current directory.
+/////////
+
+
+<iostream>
+using std::cout;
+using::std::endl;
+
+int main(){
+	cout << "Hello World";
+	return 0;
+}
