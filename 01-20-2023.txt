@@ -1,0 +1,17 @@
+# type 
+
+Primititve types means types that are built-in to the language:
+* int // inetger, numbers without decimals
+* double // floating point, number with decimals 
+* bool // true or false
+* char // Character: 'a', 'x'
+
+Complex type means someone defined it.
+
+* vector // a list
+* string // string of words "blah"
+
+int = 4
+char = '4'
+string = "4"
+double = 4.0
