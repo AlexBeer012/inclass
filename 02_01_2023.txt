@@ -1,0 +1,32 @@
+Feburary 1st, 2023
+Computer Science I
+Chapter 3/Homework 1/initilizing variable and reading variable
+
+simplest program:
+
+int main(){
+	return 0;
+}
+
+int is the return type.
+
+main is the function name
+
+() is the parameter list
+
+return 0; is the body. But it is everything in the {}
+
+important libraries
+	#include <iostream>
+	   std::cout
+	   std::cin
+	#include <string>
+	   std::string
+	#include<vector>
+	   std::vector
+
+Other libraries 
+	#include <cmath>
+	   sqrt()
+
+
